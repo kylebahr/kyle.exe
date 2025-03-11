@@ -23,7 +23,7 @@ function Appearance({
   href,
 }: {
   title: string
-  description: string | string[] // Accept both string and array
+  description: React.ReactNode | React.ReactNode[] // Now accepts JSX too
   event: string
   cta?: string // Make cta optional
   href?: string // Make href optional
