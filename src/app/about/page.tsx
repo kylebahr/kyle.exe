@@ -27,9 +27,9 @@ function SocialLink({
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-sky-500 dark:text-zinc-200 dark:hover:text-sky-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500" />
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-sky-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -50,7 +50,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'I’m Kyle Bahr. I live in New York City, where I design the future.',
 }
 
 export default function About() {
@@ -68,37 +68,31 @@ export default function About() {
           </div>
         </div>
         <div className="lg:order-first lg:row-span-2">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+          <h1 className="mb-6 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+            I’m Kyle, and I like games.
           </h1>
+          <p><em>(But first, I like asking why anyone’s playing.)</em></p>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
-            </p>
-            <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
-            </p>
-            <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
-            </p>
-            <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
-            </p>
+          <p>Grew up in a small town on the shores of Lake Michigan, the kind of place where people spend their whole lives and don’t bother questioning why. I ask <strong>“why”</strong> a lot. Why things work the way they do. Why people follow certain rules but ignore others. Why some people win and others don’t.</p>
+
+          <p>That last question has always stuck with me. As a kid, I played every sport I could—fiercely competitive, hated losing. Size didn’t matter much early on—we were all just scrawny kids running around. But by high school, that changed. Basketball and baseball? No problem. Football? Different story.</p>
+
+          <p>Getting steamrolled in practice every day made that obvious. Two weeks in, I called it. Didn’t matter how competitive I was—physics won. So I switched to cross country. Not because I loved running, but because it was the only other option that season.</p>
+
+          <p>Turns out, I was pretty good at it. Ran a 15:43 5K my freshman year, set the school record, and by the time I graduated, I was one of the top long-distance runners in the state. But this isn’t a story about running. It was never about running. <strong>It was about picking the right game</strong>.</p>
+
+          <p>Some people think success is about effort. Grind harder, outwork everyone, hustle until your eyeballs bleed. But if the odds aren’t in your favor, effort just means you lose slower. You can sprint all you want, but if you’re running the wrong way, who cares?</p>
+
+          <p>This is something I think about a lot. In finance, there’s a phrase: <strong>“What do you win if you win?”</strong> You see it everywhere. Some growth team slaps together a referral program, sign-ups explode, and for a second, it looks like a win—until they realize they just incentivized thousands of fake accounts. Or you dangle a giveaway to boost webinar signups, crush your target, and then find yourself with a lead list full of people who just wanted a free iPad.</p>
+
+        <p>The best players—whether in business, finance, or life—don’t just grind harder. They play games that are actually worth winning.</p>
+
+        <p><strong>Marketing is full of bad games.</strong> The default move is always <em>“more.”</em> More leads, more spend, more channels—because volume looks like progress. But <strong>what do you win if you win?</strong> A pipeline full of tire-kickers? A dashboard full of metrics that look nice in a slide deck but don’t move the business forward?</p>
+
+        <p>A number of years back, early in my career, I remember hearing—or maybe reading—something that stuck with me: <strong>Revenue is the only KPI that matters to non-marketing people.</strong> Not impressions. Not webinar registrants. Not the number of times someone “liked” a post on LinkedIn. <strong>Revenue.</strong></p>
+
+        <p>Anyway, these are just some of the ways I think about games, business, decision-making, and whatever else I’m overanalyzing at any given moment.</p>
+
           </div>
         </div>
         <div className="lg:pl-20">
@@ -106,21 +100,21 @@ export default function About() {
             <SocialLink href="#" icon={XIcon}>
               Follow on X
             </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink href="https://www.instagram.com/thatkylebahr/" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink href="https://github.com/kylebahr" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/kylebahr/" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
-              href="mailto:spencer@planetaria.tech"
+              href="mailto:hey@kyle-bahr.com"
               icon={MailIcon}
               className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
             >
-              spencer@planetaria.tech
+              hey@kyle-bahr.com
             </SocialLink>
           </ul>
         </div>

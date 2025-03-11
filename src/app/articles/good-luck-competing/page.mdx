@@ -1,0 +1,80 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Kyle Bahr',
+  date: '2025-02-19',
+  title: 'Good luck competing with companies that actually get this',
+  description:
+    'For years, software spending has been trapped inside IT budgets—a nice, predictable little box, somewhere between 3-7% of revenue. A handful of industries—tech, banking, etc.—pushed that a little higher, but the game was always the same: software companies battling for a fixed slice of IT spend, adjusting pricing models to fit within whatever budgets were approved for the next cycle.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Welcome friends, been a while.
+
+In my return to rambling, I will discuss the hot topic of the day — AI agents.
+
+And as always, please remember: I am not an AI expert, I am a biased and flawed human being, I am mentally beyond my peak and declining into my twilight years, I am stumbling through the world trying to make sense of everything and very rarely succeeding at that.
+
+For years, software spending has been trapped inside IT budgets—a nice, predictable little box, somewhere between 3-7% of revenue. A handful of industries—tech, banking, etc.—pushed that a little higher, but the game was always the same: software companies battling for a fixed slice of IT spend, adjusting pricing models to fit within whatever budgets were approved for the next cycle.
+
+And now?
+
+AI is here, ignoring budgets and rewriting the software economy in real time.
+
+```rust
+use ferris_says::say;
+use std::io::{stdout, BufWriter};
+
+fn main() {
+    let stdout = stdout();
+    let message = String::from("Hello fellow hackers");
+    let width = message.chars().count();
+
+    let mut writer = BufWriter::new(stdout.lock());
+    say(message.as_bytes(), width, &mut writer).unwrap();
+}
+```
+
+## Software isn’t a tool anymore. It’s an employee.
+
+Old-school software was like a calculator—it helped you do things faster, but you still had to do the thing. AI agents don't help, they do. Which is a problem if you’re still thinking in IT budget terms.
+
+- **Marketing?** AI spins up campaigns while your team argues about fonts.
+- **Engineering?** AI writes, debugs, and ships code before your standup is over.
+- **Customer support?** AI handles tickets before Karen even finishes typing her complaint.
+- **Sales?** AI floods the funnel and never asks for a bonus.
+- **Legal?** AI churns through contracts, finds the sneaky clauses, and never bills you by the hour.
+
+This isn’t “software spend” anymore. It’s scaling headcount without hiring humans.
+
+## Let’s pick on legal first—because it’s an easy target
+
+The US legal software market? A few billion. The US legal services market? $400 billion—100X bigger.
+
+If AI makes legal operations 20% more efficient (which, let’s be honest, is a criminal understatement), software spend in this space grows 5-10x overnight. And it’s not just legal.
+
+AI isn’t “making software better.” It’s replacing labor and making that whole “3-7% of revenue” cap look like a bad joke.
+
+## Not a budget shuffle—a whole new economy
+
+AI isn’t just moving numbers around; it’s opening doors that were bolted shut before.
+
+- Startups and small businesses can now take on problems they couldn’t afford to touch.
+- Big companies can scale operations in ways that were pure fantasy five years ago.
+- Departments that always got ignored can now pull the trigger on projects that would’ve been laughed out of the budget meeting.
+
+The conversation shifts from “How much IT budget do we have?” to “How many AI Agents do we spin up?”
+
+## You can use AI, or lose to it
+
+IT budgets used to be a ceiling. AI just turned them into a floor. Companies won’t just “buy software” anymore—they’ll deploy AI workers like infrastructure, scaling up or down based on whatever makes them money.
+
+And if you’re still thinking about software spend like it’s 2015, I have bad news: AI doesn’t care about your budget spreadsheets, and neither will your competitors. The rules just changed, the market just cracked wide open, and there’s no putting this genie back in the bottle.
+
+The old software economy is gone. The AI economy is here. If you’re not ready, well—good luck competing with the companies that are.

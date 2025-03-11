@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import clsx from 'clsx'
 
@@ -70,18 +71,28 @@ Card.Description = function CardDescription({
 }: {
   children: React.ReactNode
 }) {
-  return (
+  // Check if children include a list (<ul>) or other block elements
+  const isBlockElement = React.Children.toArray(children).some(
+    (child) => React.isValidElement(child) && ['ul', 'ol', 'div'].includes(child.type as string)
+  );
+
+  return isBlockElement ? (
+    <div className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+      {children}
+    </div>
+  ) : (
     <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
       {children}
     </p>
-  )
-}
+  );
+};
+
 
 Card.Cta = function CardCta({ children }: { children: React.ReactNode }) {
   return (
     <div
       aria-hidden="true"
-      className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500"
+      className="relative z-10 mt-4 flex items-center text-sm font-medium text-sky-500"
     >
       {children}
       <ChevronRightIcon className="ml-1 h-4 w-4 stroke-current" />
