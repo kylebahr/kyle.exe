@@ -18,21 +18,15 @@ export default (props) => <ArticleLayout article={article} {...props} />
 
 Before I start, please note I have no real AI experience, no financial markets experience, and honestly, no business making predictions about either. But here we are. These are just some thoughts. They might be bad, and I might change my mind tomorrow. Anyway.
 
-```js
-import { animate } from '@planetaria/animaginary'
-
-export function MyComponent({ open, children }) {
-  return (
-    <animate.div
-      in={open}
-      animateFrom="opacity-0 scale-95"
-      animateTo="opacity-100 scale-100"
-      duration={350}
-    >
-      {children}
-    </animate.div>
-  )
-}
+```bash
+echo "HEDGE FUND SIGNAL LOST... SYSTEM FAILURE DETECTED."
+sleep 1
+echo "MARKET CRASHING..."
+for i in {5..1}; do
+    echo "AI-TRADER LOSSES: $(($i * 20))%"
+    sleep 0.5
+done
+echo "SYSTEM REBOOTING... NEW SCHEME REQUIRED."
 ```
 
 AI is about to flatten the playing field in ways we aren’t ready for. Right now, building a software product requires some level of skill—coding, design, marketing, operations. Even no-code tools have a learning curve. But that’s all getting vaporized. Instead of hiring a team, you’ll just talk to an LLM and have a functional product in minutes. No engineers. No waiting months for a build. Just describe the thing, and it exists.

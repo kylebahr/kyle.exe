@@ -273,27 +273,33 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Marketer, tinkerer, and amateur pitmaster.
+          Somewhere between markets, incentives, and games.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I spend my time figuring out how to make marketing actually useful, building things on the web (sometimes successfully), and tweaking systems to work better. Occasionally, I step away from the screen to smoke some meat and think about the next experiment. 
+          I used to think games were just for fun. But have you ever noticed how people who are good at one game tend to be good at others? The same dynamics pop up everywhere—trading, fitness, business, even just figuring out life. I’m Kyle—and I can’t help but turn problems into games—to see how far I can push them.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
+              href="https://www.instagram.com/thatkylebahr"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
+              target="_blank"
+              rel="noopener noreferrer"
             />
             <SocialLink
-              href="#"
+              href="https://github.com/kylebahr"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
+              target="_blank"
+              rel="noopener noreferrer"
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/kylebahr/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+              target="_blank"
+              rel="noopener noreferrer"
             />
           </div>
         </div>

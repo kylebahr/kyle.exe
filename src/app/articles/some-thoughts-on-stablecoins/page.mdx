@@ -18,7 +18,29 @@ export default (props) => <ArticleLayout article={article} {...props} />
 
 Alright, hear me out. SaaS companies should probably start thinking about ditching credit cards and moving to stablecoin payments. Not today, not next quarter, but soon-ish. Because credit cards are a scam. Okay, maybe not a scam, but a wildly outdated and stupidly expensive tax on software businesses.
 
-<Image src={designSystem} alt="" />
+```solidity
+// No banks. No middlemen.
+
+pragma solidity ^0.8.19;
+
+interface ERC20 {
+    function transferFrom(address, address, uint256) external returns (bool);
+}
+
+contract Trustless {
+    ERC20 public usdc;
+    address public owner;
+
+    constructor(address _usdc) {
+        owner = msg.sender;
+        usdc = ERC20(_usdc);
+    }
+
+    function pay(uint256 amount) external {
+        require(usdc.transferFrom(msg.sender, owner, amount), "Payment failed.");
+    }
+}
+```
 
 Think about it: every time someone pays you, **2.9% + $0.30** disappears into the pockets of banks and payment processors. On a $100 subscription? That’s $3 gone. Multiply that by thousands, and suddenly you’re just working for Visa and Stripe. And that’s before you deal with **failed payments, chargebacks, disputes, fraud.** Fun times.
 

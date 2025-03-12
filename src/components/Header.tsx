@@ -123,8 +123,8 @@ function MobileNavigation(
           <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
             <MobileNavItem href="/about">Backstory</MobileNavItem>
             <MobileNavItem href="/articles">Ramblings</MobileNavItem>
-            <MobileNavItem href="/speaking">Worklog</MobileNavItem>
-            <MobileNavItem href="/uses">Toolbox</MobileNavItem>
+            <MobileNavItem href="/worklog">Worklog</MobileNavItem>
+            <MobileNavItem href="/toolbox">Toolbox</MobileNavItem>
           </ul>
         </nav>
       </PopoverPanel>
@@ -148,8 +148,8 @@ function NavItem({
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
-            ? 'text-sky-500 dark:text-sky-400'
-            : 'hover:text-sky-500 dark:hover:text-sky-400',
+            ? 'text-emerald-500 dark:text-emerald-400'
+            : 'hover:text-emerald-500 dark:hover:text-emerald-400',
         )}
       >
         {children}
@@ -167,8 +167,8 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
       <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 ring-1 shadow-lg shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
         <NavItem href="/about">Backstory</NavItem>
         <NavItem href="/articles">Ramblings</NavItem>
-        <NavItem href="/speaking">Worklog</NavItem>
-        <NavItem href="/uses">Toolbox</NavItem>
+        <NavItem href="/worklog">Worklog</NavItem>
+        <NavItem href="/toolbox">Toolbox</NavItem>
       </ul>
     </nav>
   )

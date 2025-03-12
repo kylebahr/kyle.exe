@@ -27,18 +27,24 @@ And now?
 
 AI is here, ignoring budgets and rewriting the software economy in real time.
 
-```rust
-use ferris_says::say;
-use std::io::{stdout, BufWriter};
+```bash
+nc -lvp 31337
+nc 127.0.0.1 31337
 
-fn main() {
-    let stdout = stdout();
-    let message = String::from("Hello fellow hackers");
-    let width = message.chars().count();
+echo "AGENT-01 STATUS: ONLINE"
+whoami && hostname
 
-    let mut writer = BufWriter::new(stdout.lock());
-    say(message.as_bytes(), width, &mut writer).unwrap();
-}
+echo "The system is compromised. Move now." | base64
+echo "VGhlIHN5c3RlbSBpcyBjb21wcm9taXNlZC4gTW92ZSBub3cuCg==" | base64 --decode
+
+echo "Deploy backup agents." | gpg --symmetric --cipher-algo AES256 -o encrypted_message.gpg
+gpg --output decrypted_message.txt --decrypt encrypted_message.gpg
+
+steghide embed -cf ai-image.jpg -ef secret.txt -p "fsociety"
+steghide extract -sf ai-image.jpg -p "fsociety"
+
+shred -u ~/.bash_history && history -c
+
 ```
 
 ## Software isn’t a tool anymore. It’s an employee.

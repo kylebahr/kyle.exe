@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Kyle Bahr',
     default:
-      'Kyle Bahr - Marketer, tinkerer, and amateur pitmaster.',
+      'Kyle Bahr - Somewhere between markets, incentives, and games.',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I used to think games were just for fun. But have you ever noticed how people who are good at one game tend to be good at others? The same dynamics pop up everywhere—trading, fitness, business, even just figuring out life. I can’t help but turn problems into games—to see how far I can push them.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

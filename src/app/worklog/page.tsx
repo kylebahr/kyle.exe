@@ -76,9 +76,8 @@ export default function Speaking() {
             href="https://www.infotrack.com/"
             title="Director of Marketing"
             description={[
-              "Led marketing for a new business unit, driving 16,000+ orders from 1,200+ law firms in year one—establishing traction in a competitive legal tech space.",
-              "Scaled the supply side of a two-sided legal marketplace, building a managed network of 500+ process servers to fulfill law firm demand—automating logistics through a centralized tech layer.",
-              "Winning over investors and press with aesthetics."
+              "Launched and drove marketing for a new business unit, generating 16,000+ orders from 1,200+ law firms in year one—carving out market share in a competitive legal tech space.",
+              "Built the supply side of a two-sided legal marketplace, assembling a network of 500+ process servers to meet law firm demand."
             ]}
             event="2022 — Present"
             cta="Company website"
@@ -89,9 +88,9 @@ export default function Speaking() {
             href="https://www.servemanager.com/"
             title="Director of Marketing"
             description={[
-              "Scaled MRR from $58.6K → $138.3K (+136%) by driving demand gen, retention, product-led growth, PPC, and pricing optimizations.",
-              "Increased CLTV/CAC from 2.88 → 4.34 by analyzing subscriber segmentation and uncovering a high-churn, low-value user base. Led a company-wide shift to focus on premium subscribers, optimizing product, onboarding, sales, and marketing for stickier, higher-LTV customers.",
-              "Scaled a new eFiling product from $0 → $10K+ monthly revenue in 36 months through paid search, SEO, partnerships, email, and webinars—winning market share in a competitive space."
+              "Grew MRR from $58.6K to $138.3K (+136%) by turning demand gen, retention, PPC, and pricing into revenue engines—leveraging product-led growth to compound gains.",
+              "Boosted CLTV/CAC from 2.88 → 4.34 by identifying a high-churn, low-value segment and shifting focus to premium subscribers—optimizing product, onboarding, sales, and marketing to drive retention.",
+              "Scaled an early-stage eFiling product into a $10K+/month revenue stream in 36 months, driving adoption through paid search, SEO, partnerships, email, and webinars in a competitive space."
             ]}
             event="2019 — 2022"
             cta="Company website"
@@ -101,9 +100,8 @@ export default function Speaking() {
           <Appearance
             title="Director of Marketing"
             description={[
-              "Scaled deal flow from $30M (<250 deals) → $100M (1,000+ deals) in 6 years as part of a small leadership team, driving growth through events, decentralized investment clubs, and crowdfunding.",
-              "Grew paid attendees (+34%) and event revenue ($320K → $525K) year-over-year by capitalizing on Facebook’s underpriced attention—engineering high-ROI paid + organic campaigns to maximize reach and ticket sales.",
-              "Winning over investors and press with aesthetics."
+              "Expanded deal flow from $30M (<250 deals) to $100M (1,000+ deals) in six years by growing a decentralized network of investment clubs, crowdfunding initiatives, and high-impact events.",
+              "Increased event revenue from $320K to $525K (+34% in paid attendees) year-over-year by capitalizing on Facebook’s underpriced attention—engineering high-ROI paid + organic campaigns to drive reach and ticket sales."
             ]}
             event="2016 — 2019"
           />
@@ -112,13 +110,19 @@ export default function Speaking() {
             title="Growth Marketing Manager"
             description={[
               <>
-                Rebuilt our nonprofit’s website end-to-end, replacing an outdated tech stack with a modern, high-performance platform—personally owning design, development, and content. 
+                Revamped our nonprofit’s web presence, replacing an outdated tech stack with a modern, high-performance platform—enhancing SEO, engagement, and conversion flow while personally leading design, development, and content. 
                 {" "}
-                <a href="https://slowmoney.org/" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+                <a 
+                  href="https://slowmoney.org/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="border-b border-zinc-500 text-zinc-700 dark:text-zinc-300 dark:border-zinc-400 hover:border-zinc-700 dark:hover:border-zinc-200"
+                >
                   Visit site
-                </a>.
+                </a>
+                .
               </>,
-              "Led editorial and production for a bi-annual publication, managing content, design, and distribution while coordinating scores of unique contributors per issue. Positioned it as a fundraising + movement-building tool, expanding engagement and brand reach."
+              "Launched a bi-annual publication from scratch, overseeing content, design, and distribution to establish it as a fundraising + movement-building tool—expanding reach, deepening engagement, and strengthening donor relationships."
             ]}
             event="2013 — 2016"
             cta="Company website"
