@@ -11,7 +11,7 @@ export async function GET(req: Request) {
 
   let author = {
     name: 'Kyle Bahr',
-    email: 'hey@kyle-bahr.com',
+    email: 'hey@kylebahr.xyz',
   }
 
   let feed = new Feed({
