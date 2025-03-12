@@ -3,6 +3,7 @@ import { type Metadata } from 'next'
 import { Card } from '@/components/Card'
 import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
+import { Button } from '@/components/Button'
 
 function SpeakingSection({
   children,
@@ -98,12 +99,14 @@ export default function Speaking() {
         </SpeakingSection>
         <SpeakingSection title="Slow Money Institute">
           <Appearance
+            href="https://slowmoney.org/"
             title="Director of Marketing"
             description={[
               "Expanded deal flow from $30M (<250 deals) to $100M (1,000+ deals) in six years by growing a decentralized network of investment clubs, crowdfunding initiatives, and high-impact events.",
               "Increased event revenue from $320K to $525K (+34% in paid attendees) year-over-year by capitalizing on Facebook’s underpriced attention—engineering high-ROI paid + organic campaigns to drive reach and ticket sales."
             ]}
             event="2016 — 2019"
+            cta="Company website"
           />
           <Appearance
             href="https://slowmoney.org/"
@@ -152,6 +155,17 @@ export default function Speaking() {
           />
         </SpeakingSection>
       </div>
+
+      <div className="mt-12 md:mt-24 md:pl-6">
+        <Button 
+          href="/resume.pdf" // Make sure the file is inside /public/
+          download 
+          variant="primary"
+        >
+          Download CV
+        </Button>
+      </div>
+
     </SimpleLayout>
   )
 }
