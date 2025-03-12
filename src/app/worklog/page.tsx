@@ -158,11 +158,12 @@ export default function Speaking() {
 
       <div className="mt-12 md:mt-24 md:pl-6">
         <Button 
-          href="/resume.pdf" // Make sure the file is inside /public/
-          download 
+          href="/resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
           variant="primary"
         >
-          Download CV
+          Download Resume
         </Button>
       </div>
 
