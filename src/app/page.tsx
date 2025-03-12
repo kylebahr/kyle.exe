@@ -190,7 +190,7 @@ function Resume() {
       company: 'InfoTrack',
       title: 'Director of Marketing',
       logo: logoInfoTrack,
-      start: '2021',
+      start: '2022',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
@@ -201,7 +201,7 @@ function Resume() {
       title: 'Director of Marketing',
       logo: logoServeManager,
       start: '2019',
-      end: '2021',
+      end: '2022',
     },
     {
       company: 'Slow Money Institute',
