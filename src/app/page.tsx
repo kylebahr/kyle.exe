@@ -121,7 +121,7 @@ function Newsletter() {
         <span className="ml-3">Occasional Thoughts</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-      Follow along for whatever I end up posting. Unsubscribe whenever—no hard feelings.
+      Follow along for whatever I end up posting. Unsubscribe whenever. No hard feelings.
       </p>
       <div className="mt-6 flex">
         <input
@@ -176,7 +176,7 @@ function Role({ role }: { role: Role }) {
           aria-label={`${startLabel} until ${endLabel}`}
         >
           <time dateTime={startDate}>{startLabel}</time>{' '}
-          <span aria-hidden="true">—</span>{' '}
+          <span aria-hidden="true">–</span>{' '}
           <time dateTime={endDate}>{endLabel}</time>
         </dd>
       </dl>

@@ -55,7 +55,7 @@ export default function Uses() {
             bigger than 27”.
           </Tool>
           <Tool title="Apple Magic Keyboard with Touch ID">
-          Nothing flashy—just works.
+          Nothing flashy. Just works.
           </Tool>
           <Tool title="Apple Magic Mouse">
           Once you get used to it, everything else feels clunky.
@@ -64,7 +64,7 @@ export default function Uses() {
           If I’m going to slouch in the worst ergonomic position imaginable most of the day, this is the chair that lets me get away with it.
           </Tool>
           <Tool title="Deskhaus Apex Pro">
-          And when I finally decide to stand, this is the desk that doesn’t make it a hassle. No wobble, no fuss—just up, down, done.
+          And when I finally decide to stand, this is the desk that doesn’t make it a hassle. No wobble, no fuss... just up, down, done.
           </Tool>
           <Tool title="Klipsch ProMedia 2.1 THX">
           Good speakers make everything better. If I’m at my desk, these are on.
@@ -78,17 +78,17 @@ export default function Uses() {
           I held onto Atom for as long as I could. Went to VS Code like everyone else, then switched to Cursor for the AI.
           </Tool>
           <Tool title="Tailwind CSS">
-          Spent years overthinking class names and writing way too much CSS. Tailwind fixed both—just build and move on.
+          Spent years overthinking class names and writing way too much CSS. Tailwind fixed both. Just build and move on.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Design">
           <Tool title="Figma">
-          Thought it was just for design—turns out, it’s for everything.
+          Thought it was just for design... turns out, it’s for everything.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Marketing">
           <Tool title="Zurb Foundation for Emails">
-          This actually makes email dev bearable—even keeps Outlook in check.
+          This actually makes email dev bearable... even keeps Outlook in check.
           </Tool>
           <Tool title="Semrush">
           The data’s good. The data’s also… debatable. Use accordingly.
@@ -100,7 +100,7 @@ export default function Uses() {
           Keeps projects organized without turning into a second job.
           </Tool>
           <Tool title="ChatGPT & Claude">
-          It's 2025—AI should be the default. ChatGPT for speed, Claude for depth.
+          It's 2025. AI should be the default. ChatGPT for speed, Claude for depth.
           </Tool>
         </ToolsSection>
         <ToolsSection title="Mobile">
