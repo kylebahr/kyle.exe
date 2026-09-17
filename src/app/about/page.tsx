@@ -73,25 +73,25 @@ export default function About() {
           </h1>
           <p><em>(But first, I like asking why anyone’s playing.)</em></p>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-          <p>Grew up in a small town on the shores of Lake Michigan, the kind of place where people spend their whole lives and don’t bother questioning why. I ask <strong>“why”</strong> a lot. Why things work the way they do. Why people follow certain rules but ignore others. Why some people win and others don’t.</p>
+            <p>Grew up in a small town on the shores of Lake Michigan, the kind of place where people spend their whole lives and don’t bother questioning why. I ask <strong>“why”</strong> a lot. Why things work the way they do. Why people follow certain rules but ignore others. Why some people win and others don’t.</p>
 
-          <p>That last question has always stuck with me. As a kid, I played every sport I could—fiercely competitive, hated losing. Size didn’t matter much early on—we were all just scrawny kids running around. But by high school, that changed. Basketball and baseball? No problem. Football? Different story.</p>
+            <p>That last question has always stuck with me. As a kid, I played every sport I could. Fiercely competitive, hated losing. Size didn’t matter much early on. We were all just scrawny kids running around. But by high school, that changed. Basketball and baseball? No problem. Football... different story.</p>
 
-          <p>Getting steamrolled in practice every day made that obvious. Two weeks in, I called it. Didn’t matter how competitive I was—physics won. So I switched to cross country. Not because I loved running, but because it was the only other option that season.</p>
+            <p>Getting steamrolled in practice every day made that pretty obvious. Two weeks in, I called it. I was as competitive as anyone out there and physics won anyway. So I switched to cross country, mostly because it was the only other thing on offer that season. Loving running had nothing to do with it.</p>
 
-          <p>Turns out, I was pretty good at it. Ran a 15:43 5K my freshman year, set the school record, and by the time I graduated, I was one of the top long-distance runners in the state. But this isn’t a story about running. It was never about running. <strong>It was about picking the right game</strong>.</p>
+            <p>Turns out, I was pretty good at it. Ran a 15:43 5K my freshman year, set the school record, and by the time I graduated, I was one of the top long-distance runners in the state. But this isn’t a story about running. It never was. What it’s about is <strong>picking the right game</strong>, and I’ll admit the picking was mostly an accident.</p>
 
-          <p>Some people think success is about effort. Grind harder, outwork everyone, hustle until your eyeballs bleed. But if the odds aren’t in your favor, effort just means you lose slower. You can sprint all you want, but if you’re running the wrong way, who cares?</p>
+            <p>A lot of people think success comes down to effort. Outwork everyone, hustle until your eyeballs bleed, etc. But if the odds aren’t in your favor, all effort does is make you lose slower. You can sprint all you want. If you’re running the wrong way, who cares.</p>
 
-          <p>This is something I think about a lot. In finance, there’s a phrase: <strong>“What do you win if you win?”</strong> You see it everywhere. Some growth team slaps together a referral program, sign-ups explode, and for a second, it looks like a win—until they realize they just incentivized thousands of fake accounts. Or you dangle a giveaway to boost webinar signups, crush your target, and then find yourself with a lead list full of people who just wanted a free iPad.</p>
+            <p>There’s a phrase in finance I think about probably more than I should... <strong>“what do you win if you win?”</strong> Once you’ve heard it you see it everywhere. Some growth team slaps together a referral program and sign-ups explode. Looks like a win for about a week, until somebody notices they just paid for a few thousand fake accounts. Or you dangle an iPad to juice webinar signups, blow past the target, and now you’ve got a lead list full of people who wanted an iPad.</p>
 
-        <p>The best players—whether in business, finance, or life—don’t just grind harder. They play games that are actually worth winning.</p>
+            <p>The best players figured out early which games are worth winning. The grinding comes after, if at all.</p>
 
-        <p><strong>Marketing is full of bad games.</strong> The default move is always <em>“more.”</em> More leads, more spend, more channels—because volume looks like progress. But <strong>what do you win if you win?</strong> A pipeline full of tire-kickers? A dashboard full of metrics that look nice in a slide deck but don’t move the business forward?</p>
+            <p><strong>Marketing is full of bad games.</strong> The default move is always <em>“more.”</em> More leads, more spend, because volume looks like progress and progress is easy to put in a slide deck. But <strong>what do you win if you win</strong>... a pipeline full of tire-kickers? A dashboard that looks great in the deck and changes nothing about the business?</p>
 
-        <p>A number of years back, early in my career, I remember hearing—or maybe reading—something that stuck with me: <strong>Revenue is the only KPI that matters to non-marketing people.</strong> Not impressions. Not webinar registrants. Not the number of times someone “liked” a post on LinkedIn. <strong>Revenue.</strong></p>
+            <p>A number of years back, early in my career, I remember hearing (or maybe reading) something that stuck with me. <strong>Revenue is the only KPI that matters to non-marketing people.</strong> Not impressions. Not webinar registrants. Not the number of times someone “liked” a post on LinkedIn. <strong>Revenue.</strong></p>
 
-        <p>Anyway, these are just some of the ways I think about games, business, decision-making, and whatever else I’m overanalyzing at any given moment.</p>
+            <p>Anyway, these are just some of the ways I think about games, business, decision-making, and whatever else I’m overanalyzing at any given moment.</p>
 
           </div>
         </div>
