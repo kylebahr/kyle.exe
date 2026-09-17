@@ -5,3 +5,6 @@ node_modules
 .npm
 out
 .DS_Store
+
+# Claude Code machine-local settings
+.claude/settings.local.json
