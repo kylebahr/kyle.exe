@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       'Kyle Bahr - Somewhere between markets, incentives, and games.',
   },
   description:
-    'I used to think games were just for fun. But have you ever noticed how people who are good at one game tend to be good at others? The same dynamics pop up everywhere—trading, fitness, business, even just figuring out life. I can’t help but turn problems into games—to see how far I can push them.',
+    'I used to think games were just for fun. Now I mostly think everything is one, and that the people who are good at one tend to be good at the rest.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,

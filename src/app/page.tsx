@@ -275,9 +275,14 @@ export default async function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
           Somewhere between markets, incentives, and games.
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I used to think games were just for fun. But have you ever noticed how people who are good at one game tend to be good at others? The same dynamics pop up everywhere—trading, fitness, business, even just figuring out life. I’m Kyle—and I can’t help but turn problems into games—to see how far I can push them.
-          </p>
+          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+            <p>
+              I used to think games were just for fun. Now I mostly think everything is one, and that the people who are good at one tend to be good at the rest. Trading, fitness, business, life. Same stuff underneath.
+            </p>
+            <p>
+              I’m Kyle. I can’t help pushing on that to see how far it goes.
+            </p>
+          </div>
           <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
