@@ -79,7 +79,7 @@ export default function About() {
 
             <p>Getting steamrolled in practice every day made that pretty obvious. Two weeks in, I called it. I was as competitive as anyone out there and physics won anyway. So I switched to cross country, mostly because it was the only other thing on offer that season. Loving running had nothing to do with it.</p>
 
-            <p>Turns out, I was pretty good at it. Ran a 15:43 5K my freshman year, set the school record, and by the time I graduated, I was one of the top long-distance runners in the state. But this isn’t a story about running. It never was. What it’s about is <strong>picking the right game</strong>, and I’ll admit the picking was mostly an accident.</p>
+            <p>Turns out, I was pretty good at it. Ran a 15:43 5K my freshman year, set the school record, and by the time I graduated, I was one of the top long-distance runners in the state. But this isn’t a story about running. What it’s about is <strong>picking the right game</strong>, and I’ll admit the picking was mostly an accident.</p>
 
             <p>A lot of people think success comes down to effort. Outwork everyone, hustle until your eyeballs bleed, etc. But if the odds aren’t in your favor, all effort does is make you lose slower. You can sprint all you want. If you’re running the wrong way, who cares.</p>
 
